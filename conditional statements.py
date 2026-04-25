@@ -1,0 +1,111 @@
+
+first_name="Areesha"
+last_name="Misbah"
+
+# print (first_name,last_name)
+# print(first_name +" "+last_name)
+
+# print(f"{first_name} {last_name}")
+
+if 22>33:
+    print('Condition is True')
+
+else:
+    print('Condition is False')
+
+
+
+
+
+getNumber=19
+
+if getNumber>=16:
+    print('You are enrolled')
+
+else:
+    print('not eligible')
+
+
+
+
+
+age=18
+
+if age>=18:
+    print('proceed')
+    
+else:
+    print("reject")
+
+
+
+
+
+getAge=int(input("Enter your age"))
+
+if getAge>=18:
+    print('You are eligible for CNIC')
+    
+else:
+    print('You are not eligible for CNIC')
+
+
+
+
+
+age=int(input("Enter your age"))
+
+if age>=18 and age<=28:
+    print("You are too young")
+
+elif age>=28 and age<=40:
+    print("You are young")
+
+else:
+    print("Invalid age")
+
+
+
+
+# MARKSHEET
+
+sub1=int(input("Enter your marks"))
+sub2=int(input("Enter your marks"))
+sub3=int(input("Enter your marks"))
+sub4=int(input("Enter your marks"))
+sub5=int(input("Enter your marks"))
+
+total_marks=500
+obtained_marks=sub1+sub2+sub3+sub4+sub5
+percentage=obtained_marks*100/total_marks
+
+if(percentage>=80):
+    print("Grade A+")
+
+elif(percentage>=70):
+    print("Grade A")
+
+elif(percentage>=60):
+    print("Grade B")
+
+elif(percentage>=50):
+    print("Grade C")
+
+elif(percentage>=40):
+    print("Grade D")
+
+else:
+    print("FAIL")
+
+
+
+
+products = ["Laptop", "Mouse", "Keyboard", "Moniter", "Printer"]
+
+user_product = input("Enter the product name: ")
+
+if user_product.capitalize() in products:
+    print("Product available")
+
+else:
+    print("Product unavailable")
